@@ -13,4 +13,4 @@ The files attached are term assignments pertaining to the courses Digital Image 
 5. Principal Component Analysis on Alphabets.
 6. Edge Detection.
 7. Homographies/Single View Geometry
-8. Cats vs Dogs Classification using ConvNets.
+
