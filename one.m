@@ -1,0 +1,29 @@
+close all; clear; clc;
+
+
+%Detecting Edges
+i=imread('cameraman.png');
+##[Gmag, Gdir]=imgradient(i);
+##imagesc(Gdir);h = colorbar;
+##set(h, 'ylim', [0 180]);
+##figure, imagesc(Gmag);colormap('gray');
+
+
+%detecting only 45 Degree Lines
+##li=imread('lines.png');
+##figure, imagesc(li);colormap('gray');
+##l=imfilter(li,(1./2008).*[2 1 0;1 0 -1;0 -1 -2]);
+##l(l<1)=0;
+##join=[0,0,2000;0,0,0;2000,0,0];
+##
+##figure, imagesc(l);colormap('gray');
+
+
+
+
+
+%q3
+F=[1 0 -1];
+fout=imfilter(i,F);
+figure, imagesc(fout);colormap('gray');
+
